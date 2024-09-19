@@ -18,7 +18,8 @@ const LearnState = () => {
   };
 
   const changeObject = () => {
-    setObject({ x: 3, y: 9 });
+    setObject({ x: 1, y: 2 });
+    console.log(object)
   };
 
   return (
@@ -39,14 +40,11 @@ const LearnState = () => {
         Resate Button (by ternary operator)
       </button>
 
-      <h1>Object {object}</h1>
+      <h1>Object show in console</h1>
       <button onClick={changeObject}>
-        click me to change object (by function)
+        click me to show object in console
       </button>
-      <h1>Object {object}</h1>
-      <button onClick={() => setObject({ x: 5, y: 8 })}>
-        click me to change object (by ternary operator)
-      </button>
+
     </>
   );
 };
