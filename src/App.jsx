@@ -5,10 +5,8 @@
 // import LearnLiftingStateUp from "./components/LearnLiftingStateUp";
 // import LearnState from "./components/LearnState";
 // import LearnUseEffect from "./components/LearnUseEffect";
-
-import LearnUseMemo from "./components/LearnUseMemo";
-
-
+// import LearnUseMemo from "./components/LearnUseMemo";
+ import LearnCustomHook from "./components/LearnCustomHook";
 
 function App() {
   // let roll = 101
@@ -25,7 +23,8 @@ function App() {
       {/* <LearnLiftingStateUp myClick={getData} /> */}
       {/* <LearnState /> */}
       {/* <LearnUseEffect /> */}
-      <LearnUseMemo />
+      {/* <LearnUseMemo /> */}
+      <LearnCustomHook />
     </>
   );
 }

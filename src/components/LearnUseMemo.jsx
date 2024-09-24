@@ -37,8 +37,8 @@ const LearnUseMemo = () => {
     <>
       <h1>you click {count} times {isCountTen}</h1>
       <button onClick={handleClick}>click me</button>
-
-      <h1>Random Number {randomNumber}</h1>
+      
+      <h1>Random Number-- ({randomNumber})</h1>
       <button onClick={genrateRandomNumber}>Genrate Random Number</button>
     </>
   );
