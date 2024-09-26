@@ -8,7 +8,9 @@
 // import LearnUseMemo from "./components/LearnUseMemo";
 //  import LearnCustomHook from "./components/LearnCustomHook";
 // import LearnConditionalRendring from "./components/LearnConditionalRendring";
-import LearnMap from "./components/LearnMap";
+// import LearnMap from "./components/LearnMap";
+// import LearnInLineCss from "./components/LearnInLineCss";
+// import LearnForm from "./components/LearnForm";
 
 function App() {
   // let roll = 101
@@ -28,7 +30,9 @@ function App() {
       {/* <LearnUseMemo /> */}
       {/* <LearnCustomHook /> */}
       {/* <LearnConditionalRendring /> */}
-      <LearnMap />
+      {/* <LearnMap /> */}
+      {/* <LearnInLineCss /> */}
+      {/* <LearnForm /> */}
     </>
   );
 }

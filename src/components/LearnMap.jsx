@@ -1,14 +1,13 @@
 const LearnMap = () => {
-  const pakage = ["pakage1", "pakage2", "pakage3"];
+  const Product = ["product 0","product 1","product 2","product 3","product 4","product 5"]
+
   return (
     <>
-      <ol>
-        {pakage.map((item, i) => (
-          <li key={i}>{item}</li>
-        ))}
-      </ol>
+    <div>{Product.map((value, index)=>(
+      <h1 key={index}>{value}</h1>
+    ))}</div>
     </>
-  );
-};
+  )
+}
 
-export default LearnMap;
+export default LearnMap
